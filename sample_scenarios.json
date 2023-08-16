@@ -1,0 +1,1410 @@
+[{
+        "name": "User: sampleuser1 | Platform: windows | IP: 127.0.0.2 | Country: DE | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser1 | Platform: windows | IP: 127.0.0.2 | Country: DE | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser1 | Platform: windows | IP: 127.0.0.1 | Country: US | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }, {
+        "name": "User: sampleuser1 | Platform: windows | IP: 127.0.0.1 | Country: US | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }, {
+        "name": "User: sampleuser1 | Platform: ios | IP: 127.0.0.2 | Country: DE | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser1 | Platform: ios | IP: 127.0.0.2 | Country: DE | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser1 | Platform: ios | IP: 127.0.0.1 | Country: US | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }, {
+        "name": "User: sampleuser1 | Platform: ios | IP: 127.0.0.1 | Country: US | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser1",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-111111111111"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: windows | IP: 127.0.0.2 | Country: DE | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: windows | IP: 127.0.0.2 | Country: DE | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: windows | IP: 127.0.0.1 | Country: US | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: windows | IP: 127.0.0.1 | Country: US | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": false,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": true,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: ios | IP: 127.0.0.2 | Country: DE | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: ios | IP: 127.0.0.2 | Country: DE | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "DE",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.2"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: ios | IP: 127.0.0.1 | Country: US | Device: isCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": true
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }, {
+        "name": "User: sampleuser2 | Platform: ios | IP: 127.0.0.1 | Country: US | Device: isNotCompliant | ServicePrincipal: Any Cloud apps",
+        "user": "sampleuser2",
+        "config": {
+            "conditions": {
+                "conditions": {
+                    "clientAppsV2": {
+                        "applyCondition": true,
+                        "exchangeActiveSync": false,
+                        "mobileDesktop": false,
+                        "modernAuth": false,
+                        "onlyAllowSupportedPlatforms": false,
+                        "otherClients": false,
+                        "webBrowsers": false
+                    },
+                    "devicePlatforms": {
+                        "all": 2,
+                        "applyCondition": true,
+                        "excluded": null,
+                        "included": {
+                            "android": false,
+                            "ios": true,
+                            "linux": false,
+                            "macOs": false,
+                            "windows": false,
+                            "windowsPhone": false
+                        }
+                    },
+                    "deviceState": {
+                        "applyCondition": true,
+                        "excludeCompliantDevice": false,
+                        "excludeDomainJoionedDevice": false,
+                        "includeDeviceStateType": 1
+                    },
+                    "locations": {
+                        "applyCondition": true,
+                        "excludeAllTrusted": false,
+                        "includeLocationType": 2
+                    },
+                    "minSigninRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "minUserRisk": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    },
+                    "servicePrincipalRiskLevels": {
+                        "applyCondition": true,
+                        "highRisk": false,
+                        "lowRisk": false,
+                        "mediumRisk": false,
+                        "noRisk": false
+                    }
+                },
+                "servicePrincipals": {
+                    "allServicePrincipals": 1,
+                    "excludeAllMicrosoftApps": "false",
+                    "includeAllMicrosoftApps": "false",
+                    "stepUpTags": [],
+                    "userActions": []
+                },
+                "users": {
+                    "allUsers": 2,
+                    "excluded": {
+                        "groupIds": [],
+                        "userIds": []
+                    },
+                    "included": {
+                        "groupIds": [],
+                        "_comment": "Please replace sample userId with a valid one",
+                        "userIds": ["00000000-0000-0000-0000-222222222222"]
+                    }
+                }
+            },
+            "country": "US",
+            "device": {
+                "isCompliant": false
+            },
+            "_comment": "Please replace sample ipAddress with a valid one",
+            "ipAddress": "127.0.0.1"
+        }
+    }
+]
