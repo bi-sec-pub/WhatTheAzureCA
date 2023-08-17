@@ -71,7 +71,7 @@ You can find a "[Sample Scenarios JSON](./sample_scenarios.json)"-File with pred
 ```
 <br>
 
-In the [Powershell script](./WhatTheAzureCA.ps1) you can find the following code snippet beginning a line 55. This section is for user related configurations and also must be modified before the first usage. The `$dirPath` can set to any destination as you please. The default is set to the same directory, from which the script will be executed.
+In the [Powershell script](./WhatTheAzureCA.ps1) you can find the following code snippet beginning a line 65. This section is for user related configurations and also must be modified before the first usage. The `$dirPath` can set to any destination as you please. The default is set to the same directory, from which the script will be executed.
 
 <br>
 
