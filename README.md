@@ -10,9 +10,9 @@ A tool to automate Conditional Access What If-scenarios using the Azure Graph AP
 
 # Structures
 ## ... of a scenario:
-- `name` = Name of the scenario; Can be set to any name of your choice
-- `user` = CA User to test policy
-- `config` = WhatIf HTTP-Request Config
+- `name` - Name of the scenario; Can be set to any name of your choice
+- `user` - CA User to test policy
+- `config` - WhatIf HTTP-Request Config
 
 ```javascript
 {
@@ -122,6 +122,6 @@ After replacing all needed values you can execute the script and it will automat
 
 
 ### Troubleshooting
-Sometimes to script throws exceptions while executing it. Please read the exception message for further details. If the time between copying the headers and executing the script is too long it may be possible that this also causes a different message besides the "Invalid creditials ..." one
+Sometimes to script throws exceptions while executing it. Please read the exception message for further details. If the time between copying the headers and executing the script is too long it may be possible that this also causes a different message besides the "Invalid creditials ..." one.
 
 If you have difficulties running the example please contact us at whattheazureca@bi-sec.de
