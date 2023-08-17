@@ -113,7 +113,9 @@ $headers = @{
 <br>
 
 #### How to receive the the headers
-##Video URL###
+https://github.com/bi-sec-pub/WhatTheAzureCA/assets/111047625/c6c38297-6386-4572-8381-76c8f8267e1f
+
+
 
 ### Executing the script
 After replacing all needed values you can execute the script and it will automaticly loop through the predefined scenarios and print the applied status of the policies in the console and in additions creates a *CSV* file, like the [sample](Azure-WhatIf-Summary.csv) one. 
